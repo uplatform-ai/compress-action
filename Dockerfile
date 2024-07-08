@@ -1,4 +1,4 @@
-FROM registry.uplatform.team/devops/brotli:v1
+FROM charlesworth/brotli
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
